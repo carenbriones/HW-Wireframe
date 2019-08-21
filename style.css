@@ -15,7 +15,7 @@ header, nav, section, aside, footer{
     background: #ebebeb;
 }
 
-header{
+#top-header{
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -29,6 +29,8 @@ nav{
 article{
     color: #ebebeb;
     background: #777;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 section{
@@ -41,16 +43,23 @@ section{
 
 aside{
     float: left;
-    padding: 20px;
-    width: 365px;
+    padding: 30px;
+    width: 345px;
+    height: 215px;
 }
 
 h1, p{
     color: #777;
     background: #ebebeb;
+    padding: 15px;
+}
+
+h1{
+    font-size: 20px;
 }
 
 footer{
     width: 960px;
     float: left; 
+    padding: 20px 0px;
 }
