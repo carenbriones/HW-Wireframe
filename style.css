@@ -8,6 +8,7 @@ body{
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
 }
 
 header, nav, section, aside, footer{
@@ -16,6 +17,13 @@ header, nav, section, aside, footer{
 
 header{
     padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 article{
@@ -24,7 +32,17 @@ article{
 }
 
 section{
+    float: left;
     width: 495px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+aside{
+    float: left;
+    padding: 20px;
+    width: 365px;
 }
 
 h1, p{
@@ -32,3 +50,7 @@ h1, p{
     background: #ebebeb;
 }
 
+footer{
+    width: 960px;
+    float: left; 
+}
